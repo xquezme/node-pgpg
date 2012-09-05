@@ -1,0 +1,19 @@
+{
+  "name": "node-pgpg",
+  "version": "0.0.0",
+  "description": "simple pgp api for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xquezme/node-pgpg.git"
+  },
+  "keywords": [
+    "pgp",
+    "openpgp"
+  ],
+  "author": "Sergey Pimenov",
+  "license": "BSD"
+}
