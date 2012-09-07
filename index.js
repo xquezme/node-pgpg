@@ -12,6 +12,9 @@ module.exports = require(__dirname + "/lib/pgpg");
 // 	console.log(err,data)
 // });
 
-module.exports.encrypt({email:"dsad@mail.ru",in:__dirname + "/lib/test.key",out:"temp.txt"},function(err,data){
-	console.log(err,data)
+module.exports.encrypt({email:"dsad@mail.ru", "message": "22834324124",out: __dirname + "/lib/test.txt"},function(err,data){
+	console.log(err,data);
+	// module.exports.decrypt({email: "dsad@mail.ru",message:data},function(err,data2){
+	// 	console.log(data2);
+	// })
 });
