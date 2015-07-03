@@ -15,5 +15,9 @@
     "openpgp"
   ],
   "author": "Sergey Pimenov",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "es6-promise": "^2.3.0",
+    "lodash": "^3.10.0"
+  }
 }
